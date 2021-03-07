@@ -1,0 +1,77 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #E0B0FF;
+  color: #0001C1; 
+}
+
+h1 {
+  font-style: verdana, arial, sans-serif;
+  color: #008080;
+}
+
+button {
+  padding: 10px;
+  border-radius: 40px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:25px;
+  border-radius:360px;
+}
+
+.hidden{
+  display: none;
+}
+
+#button1 {
+  background: url('https://cdn.trendhunterstatic.com/thumbs/cool-backgrounds.jpeg');
+}
+
+#button1:active, #button1.lit {
+  background: yellow;
+}
+
+#button2 {
+  background: url('https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png');
+}
+
+#button2:active, #button2.lit {
+  background: turquoise;
+}
+
+#button3 {
+  background: url('https://static.vecteezy.com/system/resources/thumbnails/000/598/816/small/polymesh9-01-01.jpg');
+}
+
+#button3:active, #button3.lit {
+  background: maroon;
+}
+
+#button4 {
+  background: url('https://image.freepik.com/free-vector/colorful-low-poly-background-with-cool-gradient_3811-56.jpg');
+}
+
+#button4:active, #button4.lit{
+  background: blue;
+}
+
+#button5 {
+  background: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png');
+}
+
+#button5:active, #button5.lit{
+  background: lime;
+}
+
+#button6 {
+  background: url('https://images.assetsdelivery.com/compings_v2/saiful007/saiful0071711/saiful007171100329.jpg');
+}
+
+#button6:active, #button6.lit{
+  background: gold;
+}
